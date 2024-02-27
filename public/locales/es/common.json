@@ -1,0 +1,84 @@
+{
+    "account_setting": "Configuración de la cuenta",
+    "logout": "Cerrar sesión",
+    "companies": "Empresas",
+    "contacts": "Contactos",
+    "dealStages": "Etapas de la negociación",
+    "users": "Usuarios",
+  
+    "sales": {
+      "dashboard": {
+        "dealsChartTitle": "Ventas",
+        "seeSalesPipeline": "Ver el embudo de ventas",
+        "won": "Ganadas",
+        "lost": "Perdidas"
+      }
+    },
+    "dashboardLatestActivities": {
+      "latestActivities": "Últimas actividades",
+      "created": "creó",
+      "moved": "movió",
+      "deal": "negociación",
+      "in": "en",
+      "to": "a",
+      "unassigned": "No asignado"
+    },
+    "companiesMap": {
+      "title": "Empresas",
+      "seeAllCompanies": "Ver todas las empresas"
+    },
+    "dashboardTotalCountCard": {
+      "companies": "Número de empresas",
+      "contacts": "Número de contactos",
+      "deals": "Total de negociaciones en el embudo"
+    },
+    "dashboardTotalRevenueChart": {
+      "totalRevenueYearly": "Ingresos totales (anuales)",
+      "expected": "Esperado",
+      "realized": "Realizado"
+    },
+    "dashboardTasksChart": {
+      "title": "Tareas",
+      "seeKanbanBoard": "Ver el tablero kanban"
+    },
+    "calendarUpcomingEvents": {
+      "noUpcomingEvent": "Ningún evento próximo",
+      "title": "Eventos programados",
+      "seeCalendar": "Ver calendario",
+      "today": "Hoy",
+      "tomorrow": "Mañana",
+      "allDay": "Todo el día"
+    },
+    "account_settings": {
+      "title": "Configuración de la cuenta",
+      "user_profile": "Perfil de usuario",
+      "job_title_label": "Cargo",
+      "phone_label": "Teléfono",
+      "timezone_label": "Zona horaria",
+      "security": "Seguridad",
+      "email_label": "Correo electrónico"
+    },
+    "notification_messages": {
+      "loading": "Cargando...",
+      "moved": "movió",
+      "deal_to": "negociación a",
+      "unassigned": "No asignado",
+      "created": "creó",
+      "deal_in": "negociación en",
+      "unknown_action": "Acción desconocida"
+    },
+  
+    "notifications": {
+      "success": "Éxito",
+      "error": "Error (código de estado: {{statusCode}})",
+      "undoable": "Tienes {{seconds}} segundos para deshacer",
+      "createSuccess": "{{resource}} creado exitosamente",
+      "createError": "Hubo un error al crear {{resource}} (código de estado: {{statusCode}})",
+      "deleteSuccess": "{{resource}} eliminado exitosamente",
+      "deleteError": "Error al eliminar {{resource}} (código de estado: {{statusCode}})",
+      "editSuccess": "{{resource}} editado exitosamente",
+      "editError": "Error al editar {{resource}} (código de estado: {{statusCode}})",
+      "importProgress": "Importando: {{processed}}/{{total}}"
+    }
+  }
+  

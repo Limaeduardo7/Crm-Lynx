@@ -1,0 +1,83 @@
+{
+  "account_setting": "Account Settings",
+  "logout": "Logout",
+  "companies": "Companies",
+  "contacts": "Contacts",
+  "dealStages": "Deal Stages",
+  "users": "Users",
+
+  "sales": {
+    "dashboard": {
+      "dealsChartTitle": "Sales",
+      "seeSalesPipeline": "See Sales Pipeline",
+      "won": "Won",
+      "lost": "Lost"
+    }
+  },
+  "dashboardLatestActivities": {
+    "latestActivities": "Latest activities",
+    "created": "created",
+    "moved": "moved",
+    "deal": "deal",
+    "in": "in",
+    "to": "to",
+    "unassigned": "Unassigned"
+  },
+  "companiesMap": {
+    "title": "Companies",
+    "seeAllCompanies": "See All Companies"
+  },
+  "dashboardTotalCountCard": {
+    "companies": "Number of companies",
+    "contacts": "Number of contacts",
+    "deals": "Total deals in the pipeline"
+  },
+  "dashboardTotalRevenueChart": {
+    "totalRevenueYearly": "Total Revenue (yearly)",
+    "expected": "Expected",
+    "realized": "Realized"
+  },
+  "dashboardTasksChart": {
+    "title": "Tasks",
+    "seeKanbanBoard": "See Kanban Board"
+  },
+  "calendarUpcomingEvents": {
+    "noUpcomingEvent": "No Upcoming Event",
+    "title": "Scheduled Events",
+    "seeCalendar": "See Calendar",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "allDay": "All Day"
+  },
+  "account_settings": {
+    "title": "Account Settings",
+    "user_profile": "User Profile",
+    "job_title_label": "Job Title",
+    "phone_label": "Phone",
+    "timezone_label": "Timezone",
+    "security": "Security",
+    "email_label": "Email"
+  },
+  "notification_messages": {
+    "loading": "Loading...",
+    "moved": "moved",
+    "deal_to": "deal to",
+    "unassigned": "Unassigned",
+    "created": "created",
+    "deal_in": "deal in",
+    "unknown_action": "Unknown Action"
+  },
+
+    "notifications": {
+        "success": "Success",
+        "error": "Error (status code: {{statusCode}})",
+        "undoable": "You have {{seconds}} seconds to undo",
+        "createSuccess": "{{resource}} successfully created",
+        "createError": "An error occurred while creating {{resource}} (status code: {{statusCode}})",
+        "deleteSuccess": "{{resource}} successfully deleted",
+        "deleteError": "Error deleting {{resource}} (status code: {{statusCode}})",
+        "editSuccess": "{{resource}} successfully edited",
+        "editError": "Error editing {{resource}} (status code: {{statusCode}})",
+        "importProgress": "Importing: {{processed}}/{{total}}"
+    }
+}

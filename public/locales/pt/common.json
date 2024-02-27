@@ -1,0 +1,776 @@
+{
+  "account_setting": "Configurações da conta",
+  "logout": "Sair",
+  "companies": "Empresas",
+  "contacts": "Contatos",
+  "dealStages": "Etapa",
+  "users": "Usuários",
+  "company.title": "empresas",
+
+
+  "sales": {
+    "dashboard": {
+      "dealsChartTitle": "Vendas",
+      "seeSalesPipeline": "Ver Funil de Vendas",
+      "won": "Ganho",
+      "lost": "Perdido"
+    }
+  },
+  "dashboardLatestActivities": {
+    "latestActivities": "Últimas atividades",
+    "created": "criou",
+    "moved": "movido",
+    "deal": "venda",
+    "in": "em",
+    "to": "para",
+    "unassigned": "Não atribuído"
+  },
+  "companiesMap": {
+    "title": "Empresas",
+    "seeAllCompanies": "Ver todas as empresas"
+  },
+  "dashboardTotalCountCard": {
+    "companies": "Número de empresas",
+    "contacts": "Número de contatos",
+    "deals": "Total de vendas no funil",
+    "companies.title": "Empresas",
+    "contacts.title": "Contatos",
+    "deals.title": "Negócios"
+  },
+  "dashboardTotalRevenueChart": {
+    "totalRevenueYearly": "Receita Total (anual)",
+    "expected": "Esperado",
+    "realized": "Realizado"
+  },
+  "dashboardTasksChart": {
+    "title": "Tarefas",
+    "seeKanbanBoard": "Ver quadro kanban"
+  },
+  "calendarUpcomingEvents": {
+    "noUpcomingEvent": "Nenhum Evento Agendado",
+    "title": "Eventos Agendados",
+    "seeCalendar": "Ver Calendário",
+    "today": "Hoje",
+    "tomorrow": "Amanhã",
+    "allDay": "Dia todo"
+  },
+  "account_settings": {
+    "title": "Configurações da Conta",
+    "user_profile": "Perfil do Usuário",
+    "job_title_label": "Cargo",
+    "phone_label": "Telefone",
+    "timezone_label": "Fuso Horário",
+    "security": "Segurança",
+    "email_label": "E-mail"
+  },
+  "notification_messages": {
+    "loading": "Carregando...",
+    "moved": "moveu",
+    "deal_to": "venda para",
+    "unassigned": "Não atribuído",
+    "created": "criou",
+    "deal_in": "venda em",
+    "unknown_action": "Ação desconhecida"
+  },
+
+      "actionCell": {
+        "field": "Campo",
+        "newValue": "Novo Valor",
+        "oldValue": "Valor Antigo",
+        "details": "Detalhes"
+      },
+
+      "auditLogPage": {
+        "title": "Registro de Auditoria"
+      },
+      "tableColumns": {
+        "user": "Usuário",
+        "action": "Ação",
+        "entity": "Entidade",
+        "entityId": "ID da Entidade",
+        "changes": "Alterações",
+        "dateTime": "Data e Hora"
+      },
+      "pagination": {
+        "showTotal": "Total de {{total}} logs de auditoria"
+      },
+      "filters": {
+        "userContains": "Contém usuário",
+        "actionType": "Tipo de ação",
+        "created": "Criado",
+        "updated": "Atualizado",
+        "deleted": "Excluído",
+        "dateRange": "Intervalo de datas"
+      },
+
+      "settingsPage": {
+        "title": "Título da Página de Configurações"
+    },
+    "roles": {
+        "admin": {
+            "title": "Administrador"
+        },
+        "salesIntern": {
+            "title": "Estagiário de Vendas"
+        },
+        "salesPerson": {
+            "title": "Vendedor"
+        },
+        "salesManager": {
+            "title": "Gerente de Vendas"
+        }
+    },
+    "contacts": {
+        "title": "Contatos"
+    },
+    "totalUsers": {
+        "title": "Total de Usuários"
+    },
+    "name": {
+        "title": "Nome"
+    },
+    "title": {
+        "title": "Título"
+    },
+    "role": {
+        "title": "Função"
+    },
+    "selectRole": {
+        "title": "Selecionar Função"
+    },
+    "address": {
+        "title": "Endereço"
+    },
+    "phone": {
+        "title": "Telefone"
+    },
+    "email": {
+        "title": "E-mail"
+    },
+    "website": {
+        "title": "Site"
+    },
+    "searchName": {
+        "title": "Buscar por Nome"
+    },
+    "searchTitle": {
+        "title": "Buscar por Título"
+    },
+    "companyInfo": {
+        "title": "Informações da Empresa"
+    },
+
+    "calendar": {
+      "Month": {
+          "title": "Mês"
+      },
+      "Week": {
+          "title": "Semana"
+      },
+      "Day": {
+          "title": "Dia"
+      },
+      "List": {
+          "title": "Lista"
+      }
+
+    },
+
+    "CalendarCategories": {
+      "title": "Categorias",
+      "settings": "Configurações",
+      "saveSuccess": "Salvar com Sucesso"
+  }    ,
+
+    "CalendarForm": {
+        "title": "Título",
+        "description": "Descrição",
+        "dateTime": "Data e Hora",
+        "allDay": "Dia Inteiro",
+        "category": "Categoria",
+        "color": "Cor",
+        "recommended": "Recomendado",
+        "inviteParticipants": "Convidar Participantes"
+      
+},
+
+"CalendarCreatePage": {
+  "createEvent": "Criar Evento",
+  "save": "Salvar"
+},
+
+"CalendarEditPage": {
+  "editEvent": "Editar Evento",
+  "save": "Salvar"
+},
+
+"CalendarShowPage": {
+  "editEvent": "Editar Evento",
+  "close": "Fechar",
+  "allDay": "O dia inteiro"
+},
+
+"CalendarPageWrapper": {
+  "createEvent": "Criar Evento"
+},
+
+"CalendarManageCategories": {
+  "manageCategories": "Gerenciar Categorias",
+  "save": "Salvar",
+  "deleteCategory": "Excluir a categoria",
+  "confirmDeleteCategory": "Tem certeza de que deseja excluir esta categoria?",
+  "successfullyDeletedCategory": "Categoria excluída com sucesso",
+  "successfullyCreatedCategories": "Categorias criadas com sucesso",
+  "pleaseEnterCategoryTitle": "Por favor, insira o título da categoria",
+  "addCategory": "Adicionar categoria"
+},
+
+
+"CompanyCard": {
+  "relatedContacts": "Contatos relacionados",
+  "salesOwner": "Vendedor",
+  "viewCompany": "Ver empresa",
+  "deleteCompany": "Excluir empresa",
+  "openDealsAmount": "Negócios Abertos"
+},
+
+"CompanyCardSkeleton": {
+  "relatedContacts": "Contatos relacionados",
+  "salesOwner": "Vendedor"
+},
+
+  "contact": {
+    "title": "Contatos",
+    "resetFilters": "Redefinir filtros",
+    "totalContacts": "Total de contatos:",
+    "noContacts": "Ainda não há contatos",
+    "name": "Nome",
+    "searchName": "Buscar por nome",
+    "searchTitle": "Buscar por título",
+    "stage": "Estágio",
+    "selectStage": "Selecione o estágio",
+    "enterContactName": "Por favor, insira o nome do contato",
+    "contactName": "Nome do contato",
+    "enterContactEmail": "Por favor, insira o e-mail do contato",
+    "contactEmail": "E-mail do contato",
+    "addNewContact": "Adicionar novo contato",
+    "cancel": "Cancelar"
+  },
+
+  "statusOptions": {
+    "new": "Novo",
+    "qualified": "Qualificado",
+    "unqualified": "Não qualificado",
+    "won": "Ganho",
+    "negotiation": "Negociação",
+    "lost": "Perdido",
+    "interested": "Interessado",
+    "contacted": "Contatado",
+    "churned": "Cancelado"
+  },
+
+  "deals": {
+    "title": "Negócios",
+    "resetFilters": "Redefinir filtros",
+    "totalDealAmount": "Valor total do negócio: ",
+    "noDealsYet": "Ainda não há negócios",
+    "addDealsThroughSalesPipeline": "Adicionar negócios através do pipeline de vendas",
+    "selectSalesOwnerPlaceholder": "Selecione o proprietário das vendas",
+    "participantsTitle": "Participantes",
+    "selectStagePlaceholder": "Selecione o Estágio",
+    "stageTitle": "Estágio",
+    "dealAmountTitle": "Valor do Negócio",
+    "searchTitlePlaceholder": "Pesquisar Título do Negócio",
+    "dealTitleTitle": "Título do Negócio"
+  },
+  
+  "info": {
+  "title": "Informações da Empresa",
+  "resetFilters": "Redefinir Filtros",
+  "totalDealAmount": "Valor Total do Negócio",
+  "noDealsYet": "Nenhum Negócio Ainda",
+  "addDealsThroughSalesPipeline": "Adicionar Negócios pelo Funil de Vendas",
+  "companySize": "Tamanho da Empresa"
+  },
+  
+  "notes": {
+    "title": "Notas",
+    "successfullyAddedNote": "Nota adicionada com sucesso",
+    "successful": "Bem-sucedido",
+    "enterNote": "Por favor, insira uma nota",
+    "addNotePlaceholder": "Adicione sua nota",
+    "successfullyUpdatedNote": "Nota atualizada com sucesso",
+    "successfullyDeletedNote": "Nota excluída com sucesso",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "save": "Salvar"
+  },
+  
+  "quotes": {
+    "title": "Orçamentos",
+    "resetFilters": "Limpar Filtros",
+    "noQuotesYet": "Sem orçamentos ainda",
+    "addQuotes": "Adicionar orçamentos",
+    "columns": {
+      "title": "Título do Orçamento",
+      "searchTitle": "Buscar Título",
+      "totalAmount": "Valor Total",
+      "stage": "Estágio",
+      "selectStage": "Selecionar Estágio",
+      "participants": "Participantes",
+      "selectSalesOwner": "Selecionar Vendedor"
+    }
+
+},
+
+  "companiesTable": {
+    "entityName": "Empresas",
+    "columns": {
+      "companyTitle": "Título da Empresa",
+      "salesOwner": "Responsável de Vendas",
+      "openDealsAmount": "Valor Total de Negócios Abertos",
+      "relatedContacts": "Contatos Relacionados",
+      "actions": "Ações"
+    },
+    "placeholders": {
+      "searchCompany": "Buscar Empresa",
+      "searchSalesOwner": "Buscar Responsável de Vendas",
+      "searchRelatedContacts": "Buscar Contatos Relacionados"
+    }
+  },
+
+  "companyCreatePage": {
+    "titles": {
+      "addNewCompany": "Adicionar nova empresa",
+      "companyName": "Nome da Empresa",
+      "salesOwner": "Responsável de Vendas",
+      "contactName": "Nome do Contato",
+      "contactEmail": "E-mail do Contato",
+      "addNewContacts": "Adicionar novos contatos",
+      "pleaseEnterCompanyName": "Por favor, insira o nome da empresa",
+      "pleaseSelectSalesOwner": "Por favor, selecione o responsável de vendas",
+      "pleaseEnterContactName": "Por favor, insira o nome do contato",
+      "pleaseEnterContactEmail": "Por favor, insira o e-mail do contato"
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "save": "Salvar"
+    }
+  },
+
+    "CompanyEditPage": {
+        "CompanyTitleForm.title": "Formulário de Título da Empresa",
+        "CompanyContactsTable.title": "Tabela de Contatos da Empresa",
+        "CompanyDealsTable.title": "Tabela de Negócios da Empresa",
+        "CompanyQuotesTable.title": "Tabela de Orçamentos da Empresa",
+        "CompanyNotes.title": "Notas da Empresa",
+        "CompanyInfoForm.title": "Formulário de Informações da Empresa"
+    },
+
+    "CompanyListPage": {
+      "name.title": "Pesquisar por nome",
+      "company.title": "Adicionar nova empresa"
+    },
+  
+  "actions": {
+    "more": "Mais",
+    "show": "Exibir",
+    "delete": "Apagar"
+  },  
+
+  "contactNote": {
+    "successfullyUpdatedNote": "Nota atualizada com sucesso",
+    "successful": "Bem-sucedido",
+    "pleaseEnterANote": "Por favor, insira uma nota",
+    "edit": "Editar",
+    "successfullyDeletedNote": "Nota excluída com sucesso",
+    "cancel": "Cancelar",
+    "save": "Salvar"
+},
+
+"contactCommentList": {
+  "successfullyUpdated": "Nota atualizada com sucesso",
+  "successDescription": "Sucesso",
+  "enterNote": "Por favor, insira uma nota",
+  "edit": "Editar",
+  "successfullyDeleted": "Nota excluída com sucesso",
+  "cancel": "Cancelar",
+  "save": "Salvar"
+},
+
+"loginPage": {
+  "signInGoogle": "Entrar com o Google",
+  "signInGitHub": "Entrar com o GitHub"
+
+},
+
+"registerPage": {
+  "signInGoogle": "Entrar com Google",
+  "signInGitHub": "Entrar com GitHub"
+},
+
+"contactCommentForm": {
+  "successfullyAdded.title": "Nota adicionada com sucesso",
+  "successful.title": "Sucesso",
+  "enterNote.title": "Por favor, insira uma nota",
+  "addNote.title": "Adicionar uma nota"
+  },
+
+  "contactCommentListItem": {
+    "successfullyUpdated": "Nota atualizada com sucesso",
+    "successDescription": "Sucesso",
+    "enterNote": "Por favor, insira uma nota",
+    "edit": "Editar",
+    "successfullyDeleted": "Nota excluída com sucesso",
+    "cancel": "Cancelar",
+    "save": "Salvar"
+  },
+
+  "contactStatus": {
+    "new": "Novo",
+    "contacted": "Contatado",
+    "interested": "Interessado",
+    "unqualified": "Não qualificado",
+    "qualified": "Qualificado",
+    "negotiation": "Negociação",
+    "lost": "Perdido",
+    "won": "Ganho",
+    "churned": "Cancelado"
+  },
+
+  "lifecycleStage": {
+    "title":"Estagio do Ciclo de Vida" ,
+    "Lead": "Lead",
+    "sales_qualified_lead": "Lead Qualificado para Vendas",
+    "customer": "Cliente"
+  },
+  "dropdownLabels": {
+    "interested": "Interessado",
+    "unqualified": "Não Qualificado",
+    "negotiation": "Negociação",
+    "lost": "Perdido",
+    "won": "Ganho",
+    "churned": "Cancelado"
+  },
+
+  "tableView": {
+    "Name": "Nome",
+    "Email": "Email",
+    "Company": "Empresa",
+    "Title": "Cargo",
+    "Status": "Status",
+    "Actions": "Ações",
+    "Search": {
+      "Name": "Buscar por Nome",
+      "Email": "Buscar por Email",
+      "Company": "Buscar por Empresa",
+      "Title": "Buscar por Cargo"
+    },
+    "entities": {
+      "contacts": "contatos"
+    }
+  },
+
+  "contactCreatePage": {
+    "modal": {
+      "title": "Criar Contato",
+      "okText": "Salvar"
+    },
+    "form": {
+      "nameLabel": "Nome do Contato",
+      "emailLabel": "Email",
+      "companyLabel": "Empresa",
+      "addNewCompanyButton": "Adicionar nova empresa"
+    }
+  
+},
+
+"contactsListPage": {
+  "searchPlaceholder": "Pesquisar por nome",
+  "tableView": " Visualizsção de Tabela",
+  "cardView": " Visualização de Cartão",
+  "addNewContactButton": "Adicionar novo contato"
+},
+
+"contactShowPage": {
+  "form": {
+    "emailLabel": "Email",
+    "companyLabel": "Empresa",
+    "salesOwnerLabel": "Proprietário de vendas",
+    "titleLabel": "Título",
+    "phoneLabel": "Telefone",
+    "timezoneLabel": "Fuso Horário"
+  },
+  "notesTitle": "Notas",
+  "createdAtLabel": "Criado em:",
+  "deleteConfirmTitle": "Excluir o contato",
+  "deleteConfirmDescription": "Tem certeza de que deseja excluir este contato?",
+  "deleteConfirmOkText": "Sim",
+  "deleteConfirmCancelText": "Não",
+  "deleteContactButton": "Excluir Contato"
+
+},
+
+"QuotesFormModal": {
+  "selectTitle": "Título do Orçamento",
+  "enterQuoteTitle": "Por favor, insira o título do orçamento",
+  "selectSalesOwner": "Responsável de Vendas",
+  "selectCompany": "Empresa",
+  "addNewCompany": "Adicionar nova empresa",
+  "selectUser": "Por favor, selecione um usuário",
+  "selectContact": "Contato do Orçamento"
+},
+
+"StatusIndicator": {
+  "draft": "Rascunho",
+  "sent": "Enviado",
+  "accepted": "Aceito"
+},
+
+"PdfExport": {
+  "convertToPDF": "Converter para PDF",
+  "quoteOf": "Orçamento de",
+  "preparedBy": "Preparado por:",
+  "preparedFor": "Preparado para:",
+  "productsServices": "Produtos / Serviços",
+  "title": "Título",
+  "unitPrice": "Preço Unitário",
+  "quantity": "Quantidade",
+  "discount": "Desconto",
+  "totalPrice": "Preço Total",
+  "subtotal": "Subtotal",
+  "salesTax": "Imposto sobre vendas",
+  "totalValue": "Valor Total"
+},
+
+"ProductsServices": {
+  "productsServices": "Produtos / Serviços",
+  "addNewItem": "Adicionar novo item",
+  "subtotal": "Subtotal",
+  "salesTax": "Imposto sobre vendas",
+  "totalValue": "Valor Total"
+},
+
+"QuotesShowPage": {
+  "quotes": "Cotações",
+  "edit": "Editar",
+  "preparedBy": "Preparado por",
+  "preparedFor": "Preparado para"
+},
+
+"QuotesListPage": {
+  "quotes": "Cotações",
+  "edit": "Editar",
+  "preparedBy": "Preparado por",
+  "preparedFor": "Preparado para",
+  "searchByName": "Pesquisar por nome",
+  "addQuote": "Adicionar cotação",
+  "searchName": "Pesquisar nome",
+  "searchCompany": "Pesquisar empresa",
+  "selectCompany": "Selecionar empresa",
+  "selectStage": "Selecionar etapa",
+  "selectSalesOwner": "Selecionar proprietário de vendas",
+  "title": "Título",
+  "company": "Empresa",
+  "totalAmount": "Valor Total",
+  "stage": "Estágio",
+  "participants": "Participantes",
+  "createdAt": "Criado em",
+  "actions": "Ações"
+},
+
+"checkListForm": {
+  "addItem": "Adicionar item"
+},
+
+"commentForm": {
+  "successMessage": "Comentário adicionado com sucesso",
+  "successDescription": "Sucesso",
+  "commentRequired": "Por favor, insira um comentário",
+  "placeholder": "Escreva um comentário"
+},
+
+"descriptionForm": {
+  "cancel": "Cancelar",
+  "save": "Salvar"
+},
+
+"dueDateForm": {
+  "cancel": "Cancelar",
+  "save": "Salvar"
+},
+
+"stageForm": {
+  "unassigned": "Não atribuído",
+  "selectPlaceholder": "Selecione um estágio",
+  "markAsComplete": "Marcar como completo"
+},
+
+"usersForm": {
+  "cancel": "Cancelar",
+  "save": "Salvar"
+},
+
+"DescriptionHeader": {
+  "addTaskDescription": "Adicionar descrição da tarefa"
+},
+
+"DueDateHeader": {
+  "overdue": "Atrasado",
+  "dueSoon": "Prazo próximo",
+  "processing": "Processando",
+  "addDueDate": "Adicionar data de vencimento"
+  },
+  
+  "UsersHeader": {
+  "assignToUsers": "Atribuir a usuários"
+  },
+    
+    "ProjectCard": {
+      "viewCard": "Visualizar cartão",
+      "deleteCard": "Excluir cartão",
+      "addDueDate": "Adicionar data de vencimento",
+      "viewCardSkeleton": "Visualizar esqueleto do cartão",
+      "assignToUsers": "Atribuir aos usuários"
+    },
+
+    "KanbanAddCardButton": {
+      "addNewCard": "Adicionar novo cartão"
+    },
+
+  "KanbanAddStageButton": {
+    "addStage": "Adicionar estágio"
+  },
+
+  "commentList": {
+    "successUpdateComment": {
+      "title": "Comentário atualizado com sucesso",
+      "description": "Sucesso"
+    },
+    "commentRequired": {
+      "title": "Por favor, insira um comentário"
+    },
+    "edit": {
+      "title": "Editar"
+    },
+    "successDeleteComment": {
+      "title": "Comentário excluído com sucesso",
+      "description": "Sucesso"
+    },
+    "cancel": {
+      "title": "Cancelar"
+    },
+    "save": {
+      "title": "Salvar"
+    }
+  },
+
+  "modalFooter": {
+    "deleteCard": "Excluir cartão"
+  },
+  
+  "kanbanCreateStage": {
+    "addNewStage": "Adicionar nova etapa",
+    "title": "Título",
+    "titleIsRequired": "Por favor, insira um título",
+    "successfullyCreatedStage": "Etapa criada com sucesso"
+  },
+  
+    "kanbanCreatePage": {
+      "addNewCard": "Adicionar novo cartão",
+      "title": "Título",
+      "titleIsRequired": "Por favor, insira um título"
+    },
+    
+    "kanbanEditStage": {
+      "editStageTitle": "Editar Estágio",
+      "titleLabel": "Título",
+      "titleRequiredMessage": "Por favor, insira um título",
+      "successMessage": "Estágio atualizado com sucesso",
+      "successDescription": "Atualização bem-sucedida"
+    },
+
+    "kanbanEditPage": {
+      "backToList": "Voltar para lista", 
+      "description": "Descrição",
+      "dueDate": "Data de vencimento",
+      "users": "Usuários"
+    },
+
+  "kanbanPage": {
+    "unassigned": "Não atribuído",
+    "editStatus": "Editar status",
+    "clearAllCards": "Limpar todos os cards",
+    "deleteStatus": "Excluir status",
+    "columnTitle": "Coluna {{title}}"
+  },
+  
+  "salesCreateStage": {
+    "successMessage": "Etapa criada com sucesso",
+    "successDescription": "Sucesso",
+    "backToList": "Voltar para lista",
+    "addNewStage": "Adicionar nova etapa",
+    "title": "Título"
+  },
+
+    "salesCreatePage": {
+      "addNewDeal": "Adicionar Novo Negócio",
+      "dealTitle": "Título do Negócio",
+      "enterDealTitle": "Digite o título do negócio",
+      "selectCompany": "Selecione a Empresa",
+      "stage": "Estágio",
+      "unassigned": "Não atribuído",
+      "dealValue": "Valor do Negócio",
+      "dealOwner": "Responsável pelo Negócio",
+      "selectUser": "Selecione o Usuário",
+      "backToList": "Voltar para a lista",
+      "dealContact": "Contato do Negócio",
+      "contactName": "Nome do Contato",
+      "contactEmail": "E-mail do Contato",
+      "enterContactEmail": "Digite o e-mail do contato",
+      "addNewCompany": "Adicionar nova empresa",
+      "selectStage": "Selecionar Estágio"
+    },
+    
+    "salesEditStage": {
+      "successMessage": "Successfully updated stage",
+      "successDescription": "Successful",
+      "editStageTitle": "Edit stage",
+      "titleLabel": "Title",
+      "titleRequiredMessage": "Please enter a title"
+    },
+    
+    "salesEditPage": {
+      "editDeal": "Editar Negócio",
+      "dealTitle": "Título do Negócio",
+      "enterDealTitle": "Por favor, insira o título do negócio",
+      "company": "Empresa",
+      "selectCompany": "Por favor, selecione uma empresa",
+      "dealContact": "Contato do Negócio",
+      "selectStage": "Selecione o Estágio",
+      "dealValue": "Valor do Negócio",
+      "dealOwner": "Responsável pelo Negócio",
+      "selectUser": "Selecione um usuário",
+      "unassigned": "Não atribuído"
+    },
+    
+    "salesFinalizeDeal": {
+      "addDetailsTitle": "Adicionar mais detalhes",
+      "successMessage": "Negócio atualizado com sucesso",
+      "successDescription": "Atualização bem-sucedida",
+      "notesLabel": "Notas",
+      "notesRequiredMessage": "Por favor, insira as notas",
+      "closedDateLabel": "Data de fechamento",
+      "closedDateRequiredMessage": "Por favor, selecione a data de fechamento"
+    }, 
+    
+    "editStatus.label": "Editar status",
+    "clearAllCards.label": "Limpar todos os cartões",
+    "deleteStatus.label": "Excluir status",
+    "deleteStage.successMessage": "Estágio excluído com sucesso",
+    "deleteStage.successDescription": "Sucesso ao excluir o estágio",
+    "unassigned.title": "Não atribuído"
+  }   
+
+
+
