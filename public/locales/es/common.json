@@ -1,84 +1,742 @@
+
 {
-    "account_setting": "Configuración de la cuenta",
-    "logout": "Cerrar sesión",
-    "companies": "Empresas",
-    "contacts": "Contactos",
-    "dealStages": "Etapas de la negociación",
-    "users": "Usuarios",
-  
-    "sales": {
-      "dashboard": {
-        "dealsChartTitle": "Ventas",
-        "seeSalesPipeline": "Ver el embudo de ventas",
-        "won": "Ganadas",
-        "lost": "Perdidas"
-      }
-    },
-    "dashboardLatestActivities": {
-      "latestActivities": "Últimas actividades",
-      "created": "creó",
-      "moved": "movió",
-      "deal": "negociación",
-      "in": "en",
-      "to": "a",
-      "unassigned": "No asignado"
-    },
-    "companiesMap": {
-      "title": "Empresas",
-      "seeAllCompanies": "Ver todas las empresas"
-    },
-    "dashboardTotalCountCard": {
-      "companies": "Número de empresas",
-      "contacts": "Número de contactos",
-      "deals": "Total de negociaciones en el embudo"
-    },
-    "dashboardTotalRevenueChart": {
-      "totalRevenueYearly": "Ingresos totales (anuales)",
-      "expected": "Esperado",
-      "realized": "Realizado"
-    },
-    "dashboardTasksChart": {
-      "title": "Tareas",
-      "seeKanbanBoard": "Ver el tablero kanban"
-    },
-    "calendarUpcomingEvents": {
-      "noUpcomingEvent": "Ningún evento próximo",
-      "title": "Eventos programados",
-      "seeCalendar": "Ver calendario",
-      "today": "Hoy",
-      "tomorrow": "Mañana",
-      "allDay": "Todo el día"
-    },
-    "account_settings": {
-      "title": "Configuración de la cuenta",
-      "user_profile": "Perfil de usuario",
-      "job_title_label": "Cargo",
-      "phone_label": "Teléfono",
-      "timezone_label": "Zona horaria",
-      "security": "Seguridad",
-      "email_label": "Correo electrónico"
-    },
-    "notification_messages": {
-      "loading": "Cargando...",
-      "moved": "movió",
-      "deal_to": "negociación a",
-      "unassigned": "No asignado",
-      "created": "creó",
-      "deal_in": "negociación en",
-      "unknown_action": "Acción desconocida"
-    },
-  
-    "notifications": {
-      "success": "Éxito",
-      "error": "Error (código de estado: {{statusCode}})",
-      "undoable": "Tienes {{seconds}} segundos para deshacer",
-      "createSuccess": "{{resource}} creado exitosamente",
-      "createError": "Hubo un error al crear {{resource}} (código de estado: {{statusCode}})",
-      "deleteSuccess": "{{resource}} eliminado exitosamente",
-      "deleteError": "Error al eliminar {{resource}} (código de estado: {{statusCode}})",
-      "editSuccess": "{{resource}} editado exitosamente",
-      "editError": "Error al editar {{resource}} (código de estado: {{statusCode}})",
-      "importProgress": "Importando: {{processed}}/{{total}}"
+  "account_setting": "Configuración de la cuenta",
+  "logout": "Cerrar sesión",
+  "companies": "Empresas",
+  "contacts": "Contactos",
+  "dealStages": "Etapas de negociación",
+  "users": "Usuarios",
+  "company.title": "empresas",
+
+  "sales": {
+    "dashboard": {
+      "dealsChartTitle": "Ventas",
+      "seeSalesPipeline": "Ver pipeline de ventas",
+      "won": "Ganados",
+      "lost": "Perdidos"
     }
+  },
+  "dashboardLatestActivities": {
+    "latestActivities": "Últimas actividades",
+    "created": "creado",
+    "moved": "movido",
+    "deal": "negociación",
+    "in": "en",
+    "to": "a",
+    "unassigned": "No asignado"
+  },
+  "companiesMap": {
+    "title": "Empresas",
+    "seeAllCompanies": "Ver todas las empresas"
+  },
+  "dashboardTotalCountCard": {
+    "companies": "Número de empresas",
+    "contacts": "Número de contactos",
+    "deals": "Total de negociaciones en el pipeline",
+    "companies.title": "Empresas",
+    "contacts.title": "Contactos",
+    "deals.title": "Negociaciones"
+  },
+  "dashboardTotalRevenueChart": {
+    "totalRevenueYearly": "Ingresos totales (Anual)",
+    "expected": "Esperado",
+    "realized": "Realizado"
+  },
+  "dashboardTasksChart": {
+    "title": "Tareas",
+    "seeKanbanBoard": "Ver tablero Kanban"
+  },
+  "calendarUpcomingEvents": {
+    "noUpcomingEvent": "No hay eventos próximos",
+    "title": "Eventos programados",
+    "seeCalendar": "Ver calendario",
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "allDay": "Todo el día"
+  },
+  "account_settings": {
+    "title": "Configuración de la cuenta",
+    "user_profile": "Perfil de usuario",
+    "job_title_label": "Cargo",
+    "phone_label": "Teléfono",
+    "timezone_label": "Zona horaria",
+    "security": "Seguridad",
+    "email_label": "Correo electrónico"
+  },
+  "notification_messages": {
+    "loading": "Cargando...",
+    "moved": "movido",
+    "deal_to": "negociación a",
+    "unassigned": "No asignado",
+    "created": "creado",
+    "deal_in": "negociación en",
+    "unknown_action": "Acción desconocida"
+  },
+
+  "actionCell": {
+    "field": "Campo",
+    "newValue": "Nuevo valor",
+    "oldValue": "Valor antiguo",
+    "details": "Detalles"
+  },
+
+  "auditLogPage": {
+    "title": "Registro de auditoría"
+  },
+  "tableColumns": {
+    "user": "Usuario",
+    "action": "Acción",
+    "entity": "Entidad",
+    "entityId": "ID de entidad",
+    "changes": "Cambios",
+    "dateTime": "Fecha y hora"
+  },
+  "pagination": {
+    "showTotal": "Total de {{total}} registros de auditoría"
+  },
+  "filters": {
+    "userContains": "Contiene usuario",
+    "actionType": "Tipo de acción",
+    "created": "Creado",
+    "updated": "Actualizado",
+    "deleted": "Eliminado",
+    "dateRange": "Rango de fechas"
+  },
+
+  "settingsPage": {
+    "title": "Título de la página de configuración"
+  },
+  "roles": {
+    "admin": {
+      "title": "Administrador"
+    },
+    "salesIntern": {
+      "title": "Practicante de ventas"
+    },
+    "salesPerson": {
+      "title": "Vendedor"
+    },
+    "salesManager": {
+      "title": "Gerente de ventas"
+    }
+  },
+  "contacts": {
+    "title": "Contactos"
+  },
+  "totalUsers": {
+    "title": "Total de usuarios"
+  },
+  "name": {
+    "title": "Nombre"
+  },
+  "title": {
+    "title": "Título"
+  },
+  "role": {
+    "title": "Rol"
+  },
+  "selectRole": {
+    "title": "Seleccionar rol"
+  },
+  "address": {
+    "title": "Dirección"
+  },
+  "phone": {
+    "title": "Teléfono"
+  },
+  "email": {
+    "title": "Correo electrónico"
+  },
+  "website": {
+    "title": "Sitio web"
+  },
+  "searchName": {
+    "title": "Buscar por nombre"
+  },
+  "searchTitle": {
+    "title": "Buscar por título"
+  },
+  "companyInfo": {
+    "title": "Información de la empresa"
+  },
+
+  "calendar": {
+    "Month": {
+      "title": "Mes"
+    },
+    "Week": {
+      "title": "Semana"
+    },
+    "Day": {
+      "title": "Día"
+    },
+    "List": {
+      "title": "Lista"
+    }
+  },
+
+  "CalendarCategories": {
+    "title": "Categorías",
+    "settings": "Configuraciones",
+    "saveSuccess": "Guardado exitosamente"
+  },
+
+  "CalendarForm": {
+    "title": "Título",
+    "description": "Descripción",
+    "dateTime": "Fecha y hora",
+    "allDay": "Todo el día",
+    "category": "Categoría",
+    "color": "Color",
+    "recommended": "Recomendado",
+    "inviteParticipants": "Invitar participantes"
+  },
+
+  "CalendarCreatePage": {
+    "createEvent": "Crear evento",
+    "save": "Guardar"
+  },
+
+  "CalendarEditPage": {
+    "editEvent": "Editar evento",
+    "save": "Guardar"
+  },
+
+  "CalendarShowPage": {
+    "editEvent": "Editar evento",
+    "close": "Cerrar",
+    "allDay": "Todo el día"
+  },
+
+  "CalendarPageWrapper": {
+    "createEvent": "Crear evento"
+  },
+
+  "CalendarManageCategories": {
+    "manageCategories": "Gestionar categorías",
+    "save": "Guardar",
+    "deleteCategory": "Eliminar categoría",
+    "confirmDeleteCategory": "¿Seguro que deseas eliminar esta categoría?",
+    "successfullyDeletedCategory": "Categoría eliminada exitosamente",
+    "successfullyCreatedCategories": "Categorías creadas exitosamente",
+    "pleaseEnterCategoryTitle": "Por favor, ingresa el título de la categoría",
+    "addCategory": "Agregar categoría"
+  },
+
+  "CompanyCard": {
+    "relatedContacts": "Contactos relacionados",
+    "salesOwner": "Propietario de ventas",
+    "viewCompany": "Ver empresa",
+    "deleteCompany": "Eliminar empresa",
+    "openDealsAmount": "Negociaciones abiertas"
+  },
+
+  "CompanyCardSkeleton": {
+    "relatedContacts": "Contactos relacionados",
+    "salesOwner": "Propietario de ventas"
+  },
+
+  "contact": {
+    "title": "Contactos",
+    "resetFilters": "Restablecer filtros",
+    "totalContacts": "Total de contactos:",
+    "noContacts": "Aún no hay contactos",
+    "name": "Nombre",
+    "searchName": "Buscar por nombre",
+    "searchTitle": "Buscar por título",
+    "stage": "Etapa",
+    "selectStage": "Seleccionar etapa",
+    "enterContactName": "Por favor, ingrese el nombre del contacto",
+    "contactName": "Nombre del contacto",
+    "enterContactEmail": "Por favor, ingrese el correo electrónico del contacto",
+    "contactEmail": "Correo electrónico del contacto",
+    "addNewContact": "Agregar nuevo contacto",
+    "cancel": "Cancelar"
+  },
+
+  "statusOptions": {
+    "new": "Nuevo",
+    "qualified": "Calificado",
+    "unqualified": "No calificado",
+    "won": "Ganado",
+    "negotiation": "Negociación",
+    "lost": "Perdido",
+    "interested": "Interesado",
+    "contacted": "Contactado",
+    "churned": "Abandonado"
+  },
+
+  "deals": {
+    "title": "Negociaciones",
+    "resetFilters": "Restablecer filtros",
+    "totalDealAmount": "Monto total de la negociación: ",
+    "noDealsYet": "Todavía no hay negociaciones",
+    "addDealsThroughSalesPipeline": "Agregar negociaciones a través del pipeline de ventas",
+    "selectSalesOwnerPlaceholder": "Seleccionar propietario de ventas",
+    "participantsTitle": "Participantes",
+    "selectStagePlaceholder": "Seleccionar etapa",
+    "stageTitle": "Etapa",
+    "dealAmountTitle": "Monto de la negociación",
+    "searchTitlePlaceholder": "Buscar por título de la negociación",
+    "dealTitleTitle": "Título de la negociación"
+  },
+
+"info": {
+  "title": "Información de la empresa",
+  "resetFilters": "Restablecer filtros",
+  "totalDealAmount": "Monto total de la negociación",
+  "noDealsYet": "Aún no hay negociaciones",
+  "addDealsThroughSalesPipeline": "Agregar negociaciones a través del pipeline de ventas",
+  "companySize": "Tamaño de la empresa"
+},
+"notes": {
+  "title": "Notas",
+  "successfullyAddedNote": "Nota agregada exitosamente",
+  "successful": "Éxito",
+  "enterNote": "Por favor, ingresa una nota",
+  "addNotePlaceholder": "Agrega tu nota",
+  "successfullyUpdatedNote": "Nota actualizada exitosamente",
+  "successfullyDeletedNote": "Nota eliminada exitosamente",
+  "edit": "Editar",
+  "cancel": "Cancelar",
+  "save": "Guardar"
+},
+"quotes": {
+  "title": "Cotizaciones",
+  "resetFilters": "Restablecer filtros",
+  "noQuotesYet": "Aún no hay cotizaciones",
+  "addQuotes": "Agregar cotizaciones",
+  "columns": {
+    "title": "Título de la cotización",
+    "searchTitle": "Buscar título",
+    "totalAmount": "Monto total",
+    "stage": "Etapa",
+    "selectStage": "Seleccionar etapa",
+    "participants": "Participantes",
+    "selectSalesOwner": "Seleccionar propietario de ventas"
   }
-  
+},
+"companiesTable": {
+  "entityName": "Empresas",
+  "columns": {
+    "companyTitle": "Título de la empresa",
+    "salesOwner": "Propietario de ventas",
+    "openDealsAmount": "Monto total de negociaciones abiertas",
+    "relatedContacts": "Contactos relacionados",
+    "actions": "Acciones"
+  },
+  "placeholders": {
+    "searchCompany": "Buscar empresa",
+    "searchSalesOwner": "Buscar propietario de ventas",
+    "searchRelatedContacts": "Buscar contactos relacionados"
+  }
+},
+"companyCreatePage": {
+  "titles": {
+    "addNewCompany": "Agregar nueva empresa",
+    "companyName": "Nombre de la empresa",
+    "salesOwner": "Propietario de ventas",
+    "contactName": "Nombre del contacto",
+    "contactEmail": "Correo electrónico del contacto",
+    "addNewContacts": "Agregar nuevos contactos",
+    "pleaseEnterCompanyName": "Por favor, ingresa el nombre de la empresa",
+    "pleaseSelectSalesOwner": "Por favor, selecciona el propietario de ventas",
+    "pleaseEnterContactName": "Por favor, ingresa el nombre del contacto",
+    "pleaseEnterContactEmail": "Por favor, ingresa el correo electrónico del contacto"
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "save": "Guardar"
+  }
+},
+"CompanyEditPage": {
+  "CompanyTitleForm.title": "Formulario de título de la empresa",
+  "CompanyContactsTable.title": "Tabla de contactos de la empresa",
+  "CompanyDealsTable.title": "Tabla de negociaciones de la empresa",
+  "CompanyQuotesTable.title": "Tabla de cotizaciones de la empresa",
+  "CompanyNotes.title": "Notas de la empresa",
+  "CompanyInfoForm.title": "Formulario de información de la empresa"
+},
+"CompanyListPage": {
+  "name.title": "Buscar por nombre",
+  "company.title": "Agregar nueva empresa"
+},
+"actions": {
+  "more": "Más",
+  "show": "Mostrar",
+  "delete": "Eliminar"
+},
+"contactNote": {
+  "successfullyUpdatedNote": "Nota actualizada exitosamente",
+  "successful": "Éxito",
+  "pleaseEnterANote": "Por favor, ingresa una nota",
+  "edit": "Editar",
+  "successfullyDeletedNote": "Nota eliminada exitosamente",
+  "cancel": "Cancelar",
+  "save": "Guardar"
+},
+"contactCommentList": {
+  "successfullyUpdated": "Nota actualizada exitosamente",
+  "successDescription": "Éxito",
+  "enterNote": "Por favor, ingresa una nota",
+  "edit": "Editar",
+  "successfullyDeleted": "Nota eliminada exitosamente",
+  "cancel": "Cancelar",
+  "save": "Guardar"
+},
+"loginPage": {
+  "signInGoogle": "Iniciar sesión con Google",
+  "signInGitHub": "Iniciar sesión con GitHub"
+},
+"registerPage": {
+  "signInGoogle": "Iniciar sesión con Google",
+  "signInGitHub": "Iniciar sesión con GitHub"
+},
+"contactCommentForm": {
+  "successfullyAdded.title": "Nota agregada exitosamente",
+  "successful.title": "Éxito",
+  "enterNote.title": "Por favor, ingresa una nota",
+  "addNote.title": "Agregar una nota"
+},
+"contactCommentListItem": {
+  "successfullyUpdated": "Nota actualizada exitosamente",
+  "successDescription": "Éxito",
+  "enterNote": "Por favor, ingresa una nota",
+  "edit": "Editar",
+  "successfullyDeleted": "Nota eliminada exitosamente",
+  "cancel": "Cancelar",
+  "save": "Guardar"
+},
+"contactStatus": {
+  "new": "Nuevo",
+  "contacted": "Contactado",
+  "interested": "Interesado",
+  "unqualified": "No calificado",
+  "qualified": "Calificado",
+  "negotiation": "Negociación",
+  "lost": "Perdido",
+  "won": "Ganado",
+  "churned": "Abandonado"
+},
+"lifecycleStage": {
+  "title": "Etapa del ciclo de vida",
+  "Lead": "Prospecto",
+  "sales_qualified_lead": "Prospecto calificado por ventas",
+  "customer": "Cliente"
+},
+"dropdownLabels": {
+  "interested": "Interesado",
+  "unqualified": "No calificado",
+  "negotiation": "Negociación",
+  "lost": "Perdido",
+  "won": "Ganado",
+  "churned": "Abandonado"
+},
+"tableView": {
+  "Name": "Nombre",
+  "Email": "Correo electrónico",
+  "Company": "Empresa",
+  "Title": "Título",
+  "Status": "Estado",
+  "Actions": "Acciones",
+  "Search": {
+    "Name": "Buscar por nombre",
+    "Email": "Buscar por correo electrónico",
+    "Company": "Buscar por empresa",
+    "Title": "Buscar por título"
+  },
+  "entities": {
+    "contacts": "contactos"
+  }
+},
+"contactCreatePage": {
+  "modal": {
+    "title": "Crear contacto",
+    "okText": "Guardar"
+  },
+  "form": {
+    "nameLabel": "Nombre del contacto",
+    "emailLabel": "Correo electrónico",
+    "companyLabel": "Empresa",
+    "addNewCompanyButton": "Agregar nueva empresa"
+  }
+},
+"contactsListPage": {
+  "searchPlaceholder": "Buscar por nombre",
+  "tableView": "Vista de tabla",
+  "cardView": "Vista de tarjeta",
+  "addNewContactButton": "Agregar nuevo contacto"
+},
+"contactShowPage": {
+  "form": {
+    "emailLabel": "Correo electrónico",
+    "companyLabel": "Empresa",
+    "salesOwnerLabel": "Propietario de ventas",
+    "titleLabel": "Título",
+    "phoneLabel": "Teléfono",
+    "timezoneLabel": "Zona horaria"
+  },
+  "notesTitle": "Notas",
+  "createdAtLabel": "Creado en:",
+  "deleteConfirmTitle": "Eliminar contacto",
+  "deleteConfirmDescription": "¿Estás seguro de que quieres eliminar este contacto?",
+  "deleteConfirmOkText": "Sí",
+  "deleteConfirmCancelText": "No",
+  "deleteContactButton": "Eliminar contacto"
+},
+"QuotesFormModal": {
+  "selectTitle": "Título de la cotización",
+  "enterQuoteTitle": "Por favor, ingresa el título de la cotización",
+  "selectSalesOwner": "Propietario de ventas",
+  "selectCompany": "Empresa",
+  "addNewCompany": "Agregar nueva empresa",
+  "selectUser": "Por favor, selecciona un usuario",
+  "selectContact": "Contacto de la cotización"
+},
+"StatusIndicator": {
+  "draft": "Borrador",
+  "sent": "Enviado",
+  "accepted": "Aceptado"
+},
+"PdfExport": {
+  "convertToPDF": "Convertir a PDF",
+  "quoteOf": "Cotización de",
+  "preparedBy": "Preparado por:",
+  "preparedFor": "Preparado para:",
+  "productsServices": "Productos / Servicios",
+  "title": "Título",
+  "unitPrice": "Precio unitario",
+  "quantity": "Cantidad",
+  "discount": "Descuento",
+  "totalPrice": "Precio total",
+  "subtotal": "Subtotal",
+  "salesTax": "Impuesto sobre ventas",
+  "totalValue": "Valor total"
+},
+"ProductsServices": {
+  "productsServices": "Productos / Servicios",
+  "addNewItem": "Agregar nuevo elemento",
+  "subtotal": "Subtotal",
+  "salesTax": "Impuesto sobre ventas",
+  "totalValue": "Valor total"
+},
+"QuotesShowPage": {
+  "quotes": "Cotizaciones",
+  "edit": "Editar",
+  "preparedBy": "Preparado por",
+  "preparedFor": "Preparado para"
+},
+"QuotesListPage": {
+  "quotes": "Cotizaciones",
+  "edit": "Editar",
+  "preparedBy": "Preparado por",
+  "preparedFor": "Preparado para",
+  "searchByName": "Buscar por nombre",
+  "addQuote": "Agregar cotización",
+  "searchName": "Buscar nombre",
+  "searchCompany": "Buscar empresa",
+  "selectCompany": "Seleccionar empresa",
+  "selectStage": "Seleccionar etapa",
+  "selectSalesOwner": "Seleccionar propietario de ventas",
+  "title": "Título",
+  "company": "Empresa",
+  "totalAmount": "Monto total",
+  "stage": "Etapa",
+  "participants": "Participantes",
+  "createdAt": "Creado en",
+  "actions": "Acciones"
+},
+
+"checkListForm": {
+  "addItem": "Agregar ítem"
+},
+"commentForm": {
+  "successMessage": "Comentario agregado exitosamente",
+  "successDescription": "Éxito",
+  "commentRequired": "Por favor, ingresa un comentario",
+  "placeholder": "Escribe un comentario"
+},
+"descriptionForm": {
+  "cancel": "Cancelar",
+  "save": "Guardar"
+},
+"dueDateForm": {
+  "cancel": "Cancelar",
+  "save": "Guardar"
+},
+"stageForm": {
+  "unassigned": "Sin asignar",
+  "selectPlaceholder": "Selecciona una etapa",
+  "markAsComplete": "Marcar como completo"
+},
+"usersForm": {
+  "cancel": "Cancelar",
+  "save": "Guardar"
+},
+"DescriptionHeader": {
+  "addTaskDescription": "Agregar descripción de tarea"
+},
+"DueDateHeader": {
+  "overdue": "Vencido",
+  "dueSoon": "Pronto vencerá",
+  "processing": "Procesando",
+  "addDueDate": "Agregar fecha de vencimiento"
+},
+"UsersHeader": {
+  "assignToUsers": "Asignar a usuarios"
+},
+"ProjectCard": {
+  "viewCard": "Ver tarjeta",
+  "deleteCard": "Eliminar tarjeta",
+  "addDueDate": "Agregar fecha de vencimiento",
+  "viewCardSkeleton": "Ver esqueleto de tarjeta",
+  "assignToUsers": "Asignar a usuarios"
+},
+"KanbanAddCardButton": {
+  "addNewCard": "Agregar nueva tarjeta"
+},
+"KanbanAddStageButton": {
+  "addStage": "Agregar etapa"
+},
+"commentList": {
+  "successUpdateComment": {
+    "title": "Comentario actualizado exitosamente",
+    "description": "Éxito"
+  },
+  "commentRequired": {
+    "title": "Por favor, ingresa un comentario"
+  },
+  "edit": {
+    "title": "Editar"
+  },
+  "successDeleteComment": {
+    "title": "Comentario eliminado exitosamente",
+    "description": "Éxito"
+  },
+  "cancel": {
+    "title": "Cancelar"
+  },
+  "save": {
+    "title": "Guardar"
+  }
+},
+"modalFooter": {
+  "deleteCard": "Eliminar tarjeta"
+},
+"kanbanCreateStage": {
+  "addNewStage": "Agregar nueva etapa",
+  "title": "Título",
+  "titleIsRequired": "Por favor, ingresa un título",
+  "successfullyCreatedStage": "Etapa creada exitosamente"
+},
+"kanbanCreatePage": {
+  "addNewCard": "Agregar nueva tarjeta",
+  "title": "Título",
+  "titleIsRequired": "Por favor, ingresa un título"
+},
+"kanbanEditStage": {
+  "editStageTitle": "Editar etapa",
+  "titleLabel": "Título",
+  "titleRequiredMessage": "Por favor, ingresa un título",
+  "successMessage": "Etapa actualizada exitosamente",
+  "successDescription": "Actualización exitosa"
+},
+"kanbanEditPage": {
+  "backToList": "Volver a la lista",
+  "description": "Descripción",
+  "dueDate": "Fecha de vencimiento",
+  "users": "Usuarios"
+},
+"kanbanPage": {
+  "unassigned": "Sin asignar",
+  "editStatus": "Editar estado",
+  "clearAllCards": "Borrar todas las tarjetas",
+  "deleteStatus": "Eliminar estado",
+  "columnTitle": "Columna {{title}}"
+},
+"salesCreateStage": {
+  "successMessage": "Etapa creada exitosamente",
+  "successDescription": "Éxito",
+  "backToList": "Volver a la lista",
+  "addNewStage": "Agregar nueva etapa",
+  "title": "Título"
+},
+"salesCreatePage": {
+  "addNewDeal": "Agregar nuevo trato",
+  "dealTitle": "Título del trato",
+  "enterDealTitle": "Ingresa el título del trato",
+  "selectCompany": "Selecciona la empresa",
+  "stage": "Etapa",
+  "unassigned": "Sin asignar",
+  "dealValue": "Valor del trato",
+  "dealOwner": "Propietario del trato",
+  "selectUser": "Selecciona un usuario",
+  "backToList": "Volver a la lista",
+  "dealContact": "Contacto del trato",
+  "contactName": "Nombre del contacto",
+  "contactEmail": "Correo electrónico del contacto",
+  "enterContactEmail": "Ingresa el correo electrónico del contacto",
+  "addNewCompany": "Agregar nueva empresa",
+  "selectStage": "Selecciona la etapa"
+},
+"salesEditStage": {
+  "successMessage": "Etapa actualizada exitosamente",
+  "successDescription": "Actualización exitosa",
+  "editStageTitle": "Editar etapa",
+  "titleLabel": "Título",
+  "titleRequiredMessage": "Por favor, ingresa un título"
+},
+"salesEditPage": {
+  "editDeal": "Editar trato",
+  "dealTitle": "Título del trato",
+  "enterDealTitle": "Por favor, ingresa el título del trato",
+  "company": "Empresa",
+  "selectCompany": "Por favor, selecciona una empresa",
+  "dealContact": "Contacto del trato",
+  "selectStage": "Selecciona la etapa",
+  "dealValue": "Valor del trato",
+  "dealOwner": "Propietario del trato",
+  "selectUser": "Selecciona un usuario",
+  "unassigned": "Sin asignar"
+},
+"salesFinalizeDeal": {
+  "addDetailsTitle": "Agregar más detalles",
+  "successMessage": "Trato actualizado exitosamente",
+  "successDescription": "Actualización exitosa",
+  "notesLabel": "Notas",
+  "notesRequiredMessage": "Por favor, ingresa notas",
+  "closedDateLabel": "Fecha de cierre",
+  "closedDateRequiredMessage": "Por favor, selecciona la fecha de cierre"
+},
+"notifications": {
+  "success": "Éxito",
+  "error": "Error",
+  "createSuccess": "creado exitosamente",
+  "createError": "Ocurrió un error al crear",
+  "deleteSuccess": "eliminado exitosamente",
+  "deleteError": "Error al eliminar",
+  "editSuccess": "editado exitosamente",
+  "editError": "Error al editar",
+  "importProgress": "Importando"
+},
+"months": {
+  "January": "Enero",
+  "February": "Febrero",
+  "March": "Marzo",
+  "April": "Abril",
+  "May": "Mayo",
+  "June": "Junio",
+  "July": "Julio",
+  "August": "Agosto",
+  "September": "Septiembre",
+  "October": "Octubre",
+  "November": "Noviembre",
+  "December": "Diciembre"
+},
+"editStatus.label": "Editar estado",
+"clearAllCards.label": "Borrar todas las tarjetas",
+"deleteStatus.label": "Eliminar estado",
+"deleteStage.successMessage": "Etapa eliminada exitosamente",
+"deleteStage.successDescription": "Eliminación exitosa de etapa",
+"unassigned.title": "Sin asignar"
+}

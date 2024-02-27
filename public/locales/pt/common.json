@@ -487,7 +487,7 @@
 
 "contactsListPage": {
   "searchPlaceholder": "Pesquisar por nome",
-  "tableView": " Visualizsção de Tabela",
+  "tableView": " Visualização de Tabela",
   "cardView": " Visualização de Cartão",
   "addNewContactButton": "Adicionar novo contato"
 },
@@ -763,6 +763,33 @@
       "closedDateLabel": "Data de fechamento",
       "closedDateRequiredMessage": "Por favor, selecione a data de fechamento"
     }, 
+
+    "notifications": {
+      "success": "Sucesso",
+      "error": "Erro",
+      "createSuccess": "criado com sucesso",
+      "createError": "Ocorreu um erro ao criar",
+      "deleteSuccess": "excluído com sucesso",
+      "deleteError": "Erro ao excluir",
+      "editSuccess": "editado com sucesso",
+      "editError": "Erro ao editar",
+      "importProgress": "Importando"
+  },
+
+  "months": {
+    "January": "Janeiro",
+    "February": "Fevereiro",
+    "March": "Março",  
+    "April": "Abril",
+    "May": "Maio",
+    "June": "Junho",
+    "July": "Julho",
+    "August": "Agosto",
+    "September": "Setembro",
+    "October": "Outubro",
+    "November": "Novembro",
+    "December": "Dezembro"
+  },  
     
     "editStatus.label": "Editar status",
     "clearAllCards.label": "Limpar todos os cartões",
@@ -770,7 +797,9 @@
     "deleteStage.successMessage": "Estágio excluído com sucesso",
     "deleteStage.successDescription": "Sucesso ao excluir o estágio",
     "unassigned.title": "Não atribuído"
-  }   
+
+    
+  }
 
 
 

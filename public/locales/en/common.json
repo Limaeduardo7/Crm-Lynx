@@ -5,6 +5,7 @@
   "contacts": "Contacts",
   "dealStages": "Deal Stages",
   "users": "Users",
+  "company.title": "companies",
 
   "sales": {
     "dashboard": {
@@ -15,7 +16,7 @@
     }
   },
   "dashboardLatestActivities": {
-    "latestActivities": "Latest activities",
+    "latestActivities": "Latest Activities",
     "created": "created",
     "moved": "moved",
     "deal": "deal",
@@ -28,12 +29,15 @@
     "seeAllCompanies": "See All Companies"
   },
   "dashboardTotalCountCard": {
-    "companies": "Number of companies",
-    "contacts": "Number of contacts",
-    "deals": "Total deals in the pipeline"
+    "companies": "Number of Companies",
+    "contacts": "Number of Contacts",
+    "deals": "Total Deals in Pipeline",
+    "companies.title": "Companies",
+    "contacts.title": "Contacts",
+    "deals.title": "Deals"
   },
   "dashboardTotalRevenueChart": {
-    "totalRevenueYearly": "Total Revenue (yearly)",
+    "totalRevenueYearly": "Total Revenue (Yearly)",
     "expected": "Expected",
     "realized": "Realized"
   },
@@ -42,7 +46,7 @@
     "seeKanbanBoard": "See Kanban Board"
   },
   "calendarUpcomingEvents": {
-    "noUpcomingEvent": "No Upcoming Event",
+    "noUpcomingEvent": "No Upcoming Events",
     "title": "Scheduled Events",
     "seeCalendar": "See Calendar",
     "today": "Today",
@@ -68,16 +72,673 @@
     "unknown_action": "Unknown Action"
   },
 
-    "notifications": {
-        "success": "Success",
-        "error": "Error (status code: {{statusCode}})",
-        "undoable": "You have {{seconds}} seconds to undo",
-        "createSuccess": "{{resource}} successfully created",
-        "createError": "An error occurred while creating {{resource}} (status code: {{statusCode}})",
-        "deleteSuccess": "{{resource}} successfully deleted",
-        "deleteError": "Error deleting {{resource}} (status code: {{statusCode}})",
-        "editSuccess": "{{resource}} successfully edited",
-        "editError": "Error editing {{resource}} (status code: {{statusCode}})",
-        "importProgress": "Importing: {{processed}}/{{total}}"
+  "actionCell": {
+    "field": "Field",
+    "newValue": "New Value",
+    "oldValue": "Old Value",
+    "details": "Details"
+  },
+
+  "auditLogPage": {
+    "title": "Audit Log"
+  },
+  "tableColumns": {
+    "user": "User",
+    "action": "Action",
+    "entity": "Entity",
+    "entityId": "Entity ID",
+    "changes": "Changes",
+    "dateTime": "Date and Time"
+  },
+  "pagination": {
+    "showTotal": "Total of {{total}} audit logs"
+  },
+  "filters": {
+    "userContains": "Contains User",
+    "actionType": "Action Type",
+    "created": "Created",
+    "updated": "Updated",
+    "deleted": "Deleted",
+    "dateRange": "Date Range"
+  },
+
+  "settingsPage": {
+    "title": "Settings Page Title"
+  },
+  "roles": {
+    "admin": {
+      "title": "Administrator"
+    },
+    "salesIntern": {
+      "title": "Sales Intern"
+    },
+    "salesPerson": {
+      "title": "Salesperson"
+    },
+    "salesManager": {
+      "title": "Sales Manager"
     }
+  },
+  "contacts": {
+    "title": "Contacts"
+  },
+  "totalUsers": {
+    "title": "Total Users"
+  },
+  "name": {
+    "title": "Name"
+  },
+  "title": {
+    "title": "Title"
+  },
+  "role": {
+    "title": "Role"
+  },
+  "selectRole": {
+    "title": "Select Role"
+  },
+  "address": {
+    "title": "Address"
+  },
+  "phone": {
+    "title": "Phone"
+  },
+  "email": {
+    "title": "Email"
+  },
+  "website": {
+    "title": "Website"
+  },
+  "searchName": {
+    "title": "Search by Name"
+  },
+  "searchTitle": {
+    "title": "Search by Title"
+  },
+  "companyInfo": {
+    "title": "Company Information"
+  },
+
+  "calendar": {
+    "Month": {
+      "title": "Month"
+    },
+    "Week": {
+      "title": "Week"
+    },
+    "Day": {
+      "title": "Day"
+    },
+    "List": {
+      "title": "List"
+    }
+  },
+
+  "CalendarCategories": {
+    "title": "Categories",
+    "settings": "Settings",
+    "saveSuccess": "Successfully Saved"
+  },
+
+  "CalendarForm": {
+    "title": "Title",
+    "description": "Description",
+    "dateTime": "Date and Time",
+    "allDay": "All Day",
+    "category": "Category",
+    "color": "Color",
+    "recommended": "Recommended",
+    "inviteParticipants": "Invite Participants"
+  },
+
+  "CalendarCreatePage": {
+    "createEvent": "Create Event",
+    "save": "Save"
+  },
+
+  "CalendarEditPage": {
+    "editEvent": "Edit Event",
+    "save": "Save"
+  },
+
+  "CalendarShowPage": {
+    "editEvent": "Edit Event",
+    "close": "Close",
+    "allDay": "All Day"
+  },
+
+  "CalendarPageWrapper": {
+    "createEvent": "Create Event"
+  },
+
+  "CalendarManageCategories": {
+    "manageCategories": "Manage Categories",
+    "save": "Save",
+    "deleteCategory": "Delete Category",
+    "confirmDeleteCategory": "Are you sure you want to delete this category?",
+    "successfullyDeletedCategory": "Category successfully deleted",
+    "successfullyCreatedCategories": "Categories successfully created",
+    "pleaseEnterCategoryTitle": "Please enter category title",
+    "addCategory": "Add Category"
+  },
+
+  "CompanyCard": {
+    "relatedContacts": "Related Contacts",
+    "salesOwner": "Sales Owner",
+    "viewCompany": "View Company",
+    "deleteCompany": "Delete Company",
+    "openDealsAmount": "Open Deals"
+  },
+
+  "CompanyCardSkeleton": {
+    "relatedContacts": "Related Contacts",
+    "salesOwner": "Sales Owner"
+  },
+
+  "contact": {
+    "title": "Contacts",
+    "resetFilters": "Reset Filters",
+    "totalContacts": "Total Contacts:",
+    "noContacts": "No contacts yet",
+    "name": "Name",
+    "searchName": "Search by name",
+    "searchTitle": "Search by title",
+    "stage": "Stage",
+    "selectStage": "Select stage",
+    "enterContactName": "Please enter contact name",
+
+"Contact Name": {
+    "enterContactEmail": "Please enter contact email",
+    "contactEmail": "Contact Email",
+    "addNewContact": "Add New Contact",
+    "cancel": "Cancel"
+  },
+
+  "statusOptions": {
+    "new": "New",
+    "qualified": "Qualified",
+    "unqualified": "Unqualified",
+    "won": "Won",
+    "negotiation": "Negotiation",
+    "lost": "Lost",
+    "interested": "Interested",
+    "contacted": "Contacted",
+    "churned": "Churned"
+  },
+
+  "deals": {
+    "title": "Deals",
+    "resetFilters": "Reset Filters",
+    "totalDealAmount": "Total Deal Amount: ",
+    "noDealsYet": "No deals yet",
+    "addDealsThroughSalesPipeline": "Add deals through sales pipeline",
+    "selectSalesOwnerPlaceholder": "Select Sales Owner",
+    "participantsTitle": "Participants",
+    "selectStagePlaceholder": "Select Stage",
+    "stageTitle": "Stage",
+    "dealAmountTitle": "Deal Amount",
+    "searchTitlePlaceholder": "Search Deal Title",
+    "dealTitleTitle": "Deal Title"
+  }
+},
+
+"info": {
+  "title": "Company Information",
+  "resetFilters": "Reset Filters",
+  "totalDealAmount": "Total Deal Amount",
+  "noDealsYet": "No Deals Yet",
+  "addDealsThroughSalesPipeline": "Add Deals Through Sales Pipeline",
+  "companySize": "Company Size"
+},
+"notes": {
+  "title": "Notes",
+  "successfullyAddedNote": "Note successfully added",
+  "successful": "Successful",
+  "enterNote": "Please enter a note",
+  "addNotePlaceholder": "Add your note",
+  "successfullyUpdatedNote": "Note successfully updated",
+  "successfullyDeletedNote": "Note successfully deleted",
+  "edit": "Edit",
+  "cancel": "Cancel",
+  "save": "Save"
+},
+"quotes": {
+  "title": "Quotes",
+  "resetFilters": "Reset Filters",
+  "noQuotesYet": "No quotes yet",
+  "addQuotes": "Add quotes",
+  "columns": {
+    "title": "Quote Title",
+    "searchTitle": "Search Title",
+    "totalAmount": "Total Amount",
+    "stage": "Stage",
+    "selectStage": "Select Stage",
+    "participants": "Participants",
+    "selectSalesOwner": "Select Sales Owner"
+  }
+},
+"companiesTable": {
+  "entityName": "Companies",
+  "columns": {
+    "companyTitle": "Company Title",
+    "salesOwner": "Sales Owner",
+    "openDealsAmount": "Total Open Deals Amount",
+    "relatedContacts": "Related Contacts",
+    "actions": "Actions"
+  },
+  "placeholders": {
+    "searchCompany": "Search Company",
+    "searchSalesOwner": "Search Sales Owner",
+    "searchRelatedContacts": "Search Related Contacts"
+  }
+},
+"companyCreatePage": {
+  "titles": {
+    "addNewCompany": "Add New Company",
+    "companyName": "Company Name",
+    "salesOwner": "Sales Owner",
+    "contactName": "Contact Name",
+    "contactEmail": "Contact Email",
+    "addNewContacts": "Add New Contacts",
+    "pleaseEnterCompanyName": "Please enter the company name",
+    "pleaseSelectSalesOwner": "Please select the sales owner",
+    "pleaseEnterContactName": "Please enter the contact name",
+    "pleaseEnterContactEmail": "Please enter the contact email"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "save": "Save"
+  }
+},
+"CompanyEditPage": {
+  "CompanyTitleForm.title": "Company Title Form",
+  "CompanyContactsTable.title": "Company Contacts Table",
+  "CompanyDealsTable.title": "Company Deals Table",
+  "CompanyQuotesTable.title": "Company Quotes Table",
+  "CompanyNotes.title": "Company Notes",
+  "CompanyInfoForm.title": "Company Information Form"
+},
+"CompanyListPage": {
+  "name.title": "Search by Name",
+  "company.title": "Add New Company"
+},
+"actions": {
+  "more": "More",
+  "show": "Show",
+  "delete": "Delete"
+},
+"contactNote": {
+  "successfullyUpdatedNote": "Note successfully updated",
+  "successful": "Successful",
+  "pleaseEnterANote": "Please enter a note",
+  "edit": "Edit",
+  "successfullyDeletedNote": "Note successfully deleted",
+  "cancel": "Cancel",
+  "save": "Save"
+},
+"contactCommentList": {
+  "successfullyUpdated": "Note successfully updated",
+  "successDescription": "Success",
+  "enterNote": "Please enter a note",
+  "edit": "Edit",
+  "successfullyDeleted": "Note successfully deleted",
+  "cancel": "Cancel",
+  "save": "Save"
+},
+"loginPage": {
+  "signInGoogle": "Sign In with Google",
+  "signInGitHub": "Sign In with GitHub"
+},
+"registerPage": {
+  "signInGoogle": "Sign In with Google",
+  "signInGitHub": "Sign In with GitHub"
+},
+"contactCommentForm": {
+  "successfullyAdded.title": "Note successfully added",
+  "successful.title": "Success",
+  "enterNote.title": "Please enter a note",
+  "addNote.title": "Add a note"
+},
+"contactCommentListItem": {
+  "successfullyUpdated": "Note successfully updated",
+  "successDescription": "Success",
+  "enterNote": "Please enter a note",
+  "edit": "Edit",
+  "successfullyDeleted": "Note successfully deleted",
+  "cancel": "Cancel",
+  "save": "Save"
+},
+"contactStatus": {
+  "new": "New",
+  "contacted": "Contacted",
+  "interested": "Interested",
+  "unqualified": "Unqualified",
+  "qualified": "Qualified",
+  "negotiation": "Negotiation",
+  "lost": "Lost",
+  "won": "Won",
+  "churned": "Churned"
+},
+"lifecycleStage": {
+  "title": "Lifecycle Stage",
+  "Lead": "Lead",
+  "sales_qualified_lead": "Sales Qualified Lead",
+  "customer": "Customer"
+},
+"dropdownLabels": {
+  "interested": "Interested",
+  "unqualified": "Unqualified",
+  "negotiation": "Negotiation",
+  "lost": "Lost",
+  "won": "Won",
+  "churned": "Churned"
+},
+"tableView": {
+  "Name": "Name",
+  "Email": "Email",
+  "Company": "Company",
+  "Title": "Title",
+  "Status": "Status",
+  "Actions": "Actions",
+  "Search": {
+    "Name": "Search by Name",
+    "Email": "Search by Email",
+    "Company": "Search by Company",
+    "Title": "Search by Title"
+  },
+  "entities": {
+    "contacts": "contacts"
+  }
+},
+"contactCreatePage": {
+  "modal": {
+    "title": "Create Contact",
+    "okText": "Save"
+  },
+  "form": {
+    "nameLabel": "Contact Name",
+    "emailLabel": "Email",
+    "companyLabel": "Company",
+    "addNewCompanyButton": "Add New Company"
+  }
+},
+"contactsListPage": {
+  "searchPlaceholder": "Search by name",
+  "tableView": "Table View",
+  "cardView": "Card View",
+  "addNewContactButton": "Add New Contact"
+},
+"contactShowPage": {
+  "form": {
+    "emailLabel": "Email",
+    "companyLabel": "Company",
+    "salesOwnerLabel": "Sales Owner",
+    "titleLabel": "Title",
+    "phoneLabel": "Phone",
+    "timezoneLabel": "Timezone"
+  },
+  "notesTitle": "Notes",
+  "createdAtLabel": "Created At:",
+  "deleteConfirmTitle": "Delete Contact",
+  "deleteConfirmDescription": "Are you sure you want to delete this contact?",
+  "deleteConfirmOkText": "Yes",
+  "deleteConfirmCancelText": "No",
+  "deleteContactButton": "Delete Contact"
+},
+"QuotesFormModal": {
+  "selectTitle": "Quote Title",
+  "enterQuoteTitle": "Please enter the quote title",
+  "selectSalesOwner": "Sales Owner",
+  "selectCompany": "Company",
+  "addNewCompany": "Add new company",
+  "selectUser": "Please select a user",
+  "selectContact": "Quote Contact"
+},
+"StatusIndicator": {
+  "draft": "Draft",
+  "sent": "Sent",
+  "accepted": "Accepted"
+},
+"PdfExport": {
+  "convertToPDF": "Convert to PDF",
+  "quoteOf": "Quote of",
+  "preparedBy": "Prepared by:",
+  "preparedFor": "Prepared for:",
+  "productsServices": "Products / Services",
+  "title": "Title",
+  "unitPrice": "Unit Price",
+  "quantity": "Quantity",
+  "discount": "Discount",
+  "totalPrice": "Total Price",
+  "subtotal": "Subtotal",
+  "salesTax": "Sales Tax",
+  "totalValue": "Total Value"
+},
+"ProductsServices": {
+  "productsServices": "Products / Services",
+  "addNewItem": "Add new item",
+  "subtotal": "Subtotal",
+  "salesTax": "Sales Tax",
+  "totalValue": "Total Value"
+},
+"QuotesShowPage": {
+  "quotes": "Quotes",
+  "edit": "Edit",
+  "preparedBy": "Prepared by",
+  "preparedFor": "Prepared for"
+},
+"QuotesListPage": {
+  "quotes": "Quotes",
+  "edit": "Edit",
+  "preparedBy": "Prepared by",
+  "preparedFor": "Prepared for",
+  "searchByName": "Search by name",
+  "addQuote": "Add quote",
+  "searchName": "Search name",
+  "searchCompany": "Search company",
+  "selectCompany": "Select company",
+  "selectStage": "Select stage",
+  "selectSalesOwner": "Select sales owner",
+  "title": "Title",
+  "company": "Company",
+  "totalAmount": "Total Amount",
+  "stage": "Stage",
+  "participants": "Participants",
+  "createdAt": "Created At",
+  "actions": "Actions"
+},
+
+"checkListForm": {
+  "addItem": "Add Item"
+},
+"commentForm": {
+  "successMessage": "Comment added successfully",
+  "successDescription": "Success",
+  "commentRequired": "Please enter a comment",
+  "placeholder": "Write a comment"
+},
+"descriptionForm": {
+  "cancel": "Cancel",
+  "save": "Save"
+},
+"dueDateForm": {
+  "cancel": "Cancel",
+  "save": "Save"
+},
+"stageForm": {
+  "unassigned": "Unassigned",
+  "selectPlaceholder": "Select a stage",
+  "markAsComplete": "Mark as complete"
+},
+"usersForm": {
+  "cancel": "Cancel",
+  "save": "Save"
+},
+"DescriptionHeader": {
+  "addTaskDescription": "Add Task Description"
+},
+"DueDateHeader": {
+  "overdue": "Overdue",
+  "dueSoon": "Due Soon",
+  "processing": "Processing",
+  "addDueDate": "Add Due Date"
+},
+"UsersHeader": {
+  "assignToUsers": "Assign to Users"
+},
+"ProjectCard": {
+  "viewCard": "View Card",
+  "deleteCard": "Delete Card",
+  "addDueDate": "Add Due Date",
+  "viewCardSkeleton": "View Card Skeleton",
+  "assignToUsers": "Assign to Users"
+},
+"KanbanAddCardButton": {
+  "addNewCard": "Add New Card"
+},
+"KanbanAddStageButton": {
+  "addStage": "Add Stage"
+},
+"commentList": {
+  "successUpdateComment": {
+    "title": "Comment updated successfully",
+    "description": "Success"
+  },
+  "commentRequired": {
+    "title": "Please enter a comment"
+  },
+  "edit": {
+    "title": "Edit"
+  },
+  "successDeleteComment": {
+    "title": "Comment deleted successfully",
+    "description": "Success"
+  },
+  "cancel": {
+    "title": "Cancel"
+  },
+  "save": {
+    "title": "Save"
+  }
+},
+"modalFooter": {
+  "deleteCard": "Delete Card"
+},
+"kanbanCreateStage": {
+  "addNewStage": "Add New Stage",
+  "title": "Title",
+  "titleIsRequired": "Please enter a title",
+  "successfullyCreatedStage": "Stage created successfully"
+},
+"kanbanCreatePage": {
+  "addNewCard": "Add New Card",
+  "title": "Title",
+  "titleIsRequired": "Please enter a title"
+},
+"kanbanEditStage": {
+  "editStageTitle": "Edit Stage",
+  "titleLabel": "Title",
+  "titleRequiredMessage": "Please enter a title",
+  "successMessage": "Stage updated successfully",
+  "successDescription": "Successful update"
+},
+"kanbanEditPage": {
+  "backToList": "Back to List",
+  "description": "Description",
+  "dueDate": "Due Date",
+  "users": "Users"
+},
+"kanbanPage": {
+  "unassigned": "Unassigned",
+  "editStatus": "Edit Status",
+  "clearAllCards": "Clear All Cards",
+  "deleteStatus": "Delete Status",
+  "columnTitle": "Column {{title}}"
+},
+"salesCreateStage": {
+  "successMessage": "Stage created successfully",
+  "successDescription": "Success",
+  "backToList": "Back to List",
+  "addNewStage": "Add New Stage",
+  "title": "Title"
+},
+"salesCreatePage": {
+  "addNewDeal": "Add New Deal",
+  "dealTitle": "Deal Title",
+  "enterDealTitle": "Enter deal title",
+  "selectCompany": "Select Company",
+  "stage": "Stage",
+  "unassigned": "Unassigned",
+  "dealValue": "Deal Value",
+  "dealOwner": "Deal Owner",
+  "selectUser": "Select User",
+  "backToList": "Back to List",
+  "dealContact": "Deal Contact",
+  "contactName": "Contact Name",
+  "contactEmail": "Contact Email",
+  "enterContactEmail": "Enter contact email",
+  "addNewCompany": "Add New Company",
+  "selectStage": "Select Stage"
+},
+"salesEditStage": {
+  "successMessage": "Successfully updated stage",
+  "successDescription": "Successful",
+  "editStageTitle": "Edit stage",
+  "titleLabel": "Title",
+  "titleRequiredMessage": "Please enter a title"
+},
+"salesEditPage": {
+  "editDeal": "Edit Deal",
+  "dealTitle": "Deal Title",
+  "enterDealTitle": "Please enter the deal title",
+  "company": "Company",
+  "selectCompany": "Please select a company",
+  "dealContact": "Deal Contact",
+  "selectStage": "Select Stage",
+  "dealValue": "Deal Value",
+  "dealOwner": "Deal Owner",
+  "selectUser": "Select a user",
+  "unassigned": "Unassigned"
+},
+"salesFinalizeDeal": {
+  "addDetailsTitle": "Add More Details",
+  "successMessage": "Deal updated successfully",
+  "successDescription": "Successful update",
+  "notesLabel": "Notes",
+  "notesRequiredMessage": "Please enter notes",
+  "closedDateLabel": "Closing Date",
+  "closedDateRequiredMessage": "Please select the closing date"
+},
+"notifications": {
+  "success": "Success",
+  "error": "Error",
+  "createSuccess": "created successfully",
+  "createError": "An error occurred while creating",
+  "deleteSuccess": "deleted successfully",
+  "deleteError": "Error deleting",
+  "editSuccess": "edited successfully",
+  "editError": "Error editing",
+  "importProgress": "Importing"
+},
+"months": {
+  "January": "January",
+  "February": "February",
+  "March": "March",
+  "April": "April",
+  "May": "May",
+  "June": "June",
+  "July": "July",
+  "August": "August",
+  "September": "September",
+  "October": "October",
+  "November": "November",
+  "December": "December"
+},
+"editStatus.label": "Edit Status",
+"clearAllCards.label": "Clear All Cards",
+"deleteStatus.label": "Delete Status",
+"deleteStage.successMessage": "Stage deleted successfully",
+"deleteStage.successDescription": "Successful stage deletion",
+"unassigned.title": "Unassigned"
 }
+

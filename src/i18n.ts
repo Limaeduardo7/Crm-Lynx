@@ -31,4 +31,25 @@ i18n.on("failedLoading", (lng, ns, msg) => {
   console.log("Falha ao carregar", lng, ns, msg);
 });
 
+export const TRANSLATIONS = {
+  salesPipeline: { 
+    title: 'Pipeline de vendas'
+  },
+  companies: {
+    title: 'Empresas'
+  },
+  contacts: {
+    title: 'Contatos'
+  },
+  administration: {
+    title: 'Administração'  
+  },
+  settings: {
+    title: 'Configurações'
+  },
+  auditLog: {
+    title: 'Log de auditoria'
+  }
+}
+
 export default i18n;
